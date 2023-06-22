@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;500;700;900&display=swap");
+
+:root {
+  /* COLORS */
+
+  --primary-color: #0070cd;
+  --primary-color-0: #0071cd86;
+  --secondary-color: #ef0f0f;
+  --secondary-color-0: #ef0f0f79;
+  --third-color: #ffb624;
+  --third-color-0: #ffb62485;
+  --body-bg: #eef0f2;
+  --grey-color: #666;
+  --grey-color-0: #66666686;
+  --white-color: #fff;
+  --dark-color: #222;
+
+  /* FONTS */
+  --font-boss: 30px;
+  --font-xxl: 26px;
+  --font-xl: 23px;
+  --font-lg: 19px;
+  --font-md: 14px;
+  --font-sm: 12px;
+  --font-xs: 10px;
+
+  /* ICONS */
+
+  --icon-lg: 30px;
+  --icon-md: 20px;
+  --icon-sm: 15px;
+
+  /* SIZES */
+
+  --header-h: 55px;
+  --bottom-navigation-h: 80px;
+
+  /* --font-boss: 40px;
+  --font-xxl: 32px;
+  --font-xl: 28px;
+  --font-lg: 24px;
+  --font-md: 16px;
+  --font-sm: 14px;
+  --font-xs: 12px; */
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  background-color: var(--body-bg);
+  color: var(--grey-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* START BUTTONS */
+
+.btn {
+}
+
+.btn-lg {
+}
+
+.btn-md {
+}
+
+.btn-sm {
+}
+
+/* END BUTTONS */
+
+/* START BADGE */
+
+.badge {
+}
+
+.badge-lg {
+}
+
+.badge-md {
+}
+
+.badge-sm {
+}
+
+/* END BADGE */
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0px;
+}
